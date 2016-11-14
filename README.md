@@ -1,10 +1,28 @@
-[![banner](demo/imgs/banner.jpg)](#)
+## Fork Details - bootstrap-material-design
 
-[![build status](https://travis-ci.org/FezVrasta/bootstrap-material-design.svg?branch=master)](https://travis-ci.org/FezVrasta/bootstrap-material-design)
-[![gratipay](https://img.shields.io/gratipay/FezVrasta.svg)](https://gratipay.com/FezVrasta)
-[![Bower version](https://badge.fury.io/bo/bootstrap-material-design.svg)](https://github.com/FezVrasta/bootstrap-material-design)
+This repository is forked from [bootstrap-material-design](https://github.com/FezVrasta/bootstrap-material-design)
+and contains custom color schemes for personal projects.
 
+Branch `master-cjs` contains the updated build, `dist-cjs` contains the updated distribution.
 
+For use with npm, add the following to package.json:
+
+`"bootstrap-material-design": "https://github.com/cjsheets/bootstrap-material-design/tarball/dist-cjs"`
+
+### Maintainance Instructions
+
+* Clone master-cjs: `git clone git@github.com:cjsheets/bootstrap-material-design.git`
+* Install dependencies: `npm install && bower install`
+* Rebuild distribution: `grunt dist`
+* Commit and push updates to master-cjs.
+
+Generate dist-cjs
+* From master-cjs: `git branch -d dist-cjs; git checkout -b dist-cjs`
+* Prepare dist: `mv -t dist/ README.md .gitignore LICENSE.md package.json`
+* `rm *; rm .*; rm -R t* s* n* l* g* b* .s*; mv dist/* .; rm -R d*`
+* Commit and push dist-cjs
+
+[![Analytics](https://cjs-beacon.appspot.com/UA-10006093-3/github/cjsheets/bootstrap-material-design?pixel)](https://github.com/cjsheets/bootstrap-material-design)
 
 ## About
 Material Design for Bootstrap is a Bootstrap V3 compatible theme; it is an easy way to use the new [Material Design guidelines by Google](https://material.google.com/) in your Bootstrap 3 based application.
