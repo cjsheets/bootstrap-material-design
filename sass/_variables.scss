@@ -22,7 +22,7 @@ $mdb-label-color-toggle-focus: unquote("rgba(#{$rgb-black}, .54)") !default;
 // Converted bs variables
 
 // Bootstrap brand color customization
-$brand-primary: $teal !default;
+$brand-primary: $cjs-blue !default;
 $brand-success: $green !default;
 $brand-danger: $red !default;
 $brand-warning: $deep-orange !default;
@@ -154,7 +154,7 @@ $mdb-btn-font-size-sm: 12px !default;
 $mdb-btn-font-size-xs: 10px !default;
 
 
-$mdb-btn-background-color: $body-bg; //transparent !default;
+$mdb-btn-background-color: $body-bg !default;
 $mdb-btn-background-color-text: $mdb-text-color-primary !default;
 
 

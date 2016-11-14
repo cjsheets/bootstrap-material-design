@@ -34,6 +34,23 @@ Then, run this script to get the list@mixin (function(){
 
 
 */
+$cjs-blue-50: #dafff4 !default;
+$cjs-blue-100: #b2ecf3 !default;
+$cjs-blue-200: #87d8f1 !default;
+$cjs-blue-300: #5bc3ee !default;
+$cjs-blue-400: #39b3ed !default;
+$cjs-blue-500: #18a4eb !default;
+$cjs-blue-600: #1596dd !default;
+$cjs-blue-700: #1084ca !default;
+$cjs-blue-800: #0c73b8 !default;
+$cjs-blue-900: #04559b !default;
+
+$cjs-blue-A100: #79bff7 !default;
+$cjs-blue-A200: #3b98f7 !default;
+$cjs-blue-A400: #2087f7 !default;
+$cjs-blue-A700: #2070f7 !default;
+$cjs-blue: $cjs-blue-500 !default;
+
 $red-50: #ffebee !default;
 $red-100: #ffcdd2 !default;
 $red-200: #ef9a9a !default;
