@@ -38,8 +38,8 @@ For use with npm, add the following to package.json:
 
 * `git branch -d dist-note; git push origin --delete dist-note`
 * `git checkout -b dist-note`
-* Prepare dist: `mv -t dist/ README.md .gitignore LICENSE.md package.json scripts`
-* `rm *; rm .*; rm -R t* s* n* l* g* b* .s*; mv dist/* .; rm -R d*`
+* Prepare dist: `mkdir dist; mv -t dist/ README.md .gitignore LICENSE.md package.json js scss`
+* `rm *; rm .*; rm -R n* b*; mv dist/* .; rm -R d*`
 * git push origin --delete dist-note
 * Commit and push dist-note
 
